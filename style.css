@@ -1,0 +1,64 @@
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+A {
+    display: none;
+    
+}
+
+.question {
+    display: none;
+} 
+
+.result {
+    display: none;
+}
+
+#img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+#im {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+}
+
+#i {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+  }
+
+.result {
+    object-fit: none;
+}
+
+.share {
+    margin: 0 auto;
+}
+
+.kakao_ad_area {
+    width: 320px;
+    margin: 0 auto;
+}
+
+body{font-family: 'Coo.ttf'}
+
+@font-face {
+    font-family: 'Coo.ttf';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.alert {
+    display: none;
+}
